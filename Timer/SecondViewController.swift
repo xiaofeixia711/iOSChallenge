@@ -6,4 +6,15 @@
 //  Copyright (c) 2014年 Charles. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class SecondViewController: UIViewController {
+    
+    @IBOutlet var recordTable: UITableView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor=UIColor.whiteColor()
+        
+        
+    }
+}

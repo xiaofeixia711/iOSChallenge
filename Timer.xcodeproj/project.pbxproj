@@ -13,6 +13,10 @@
 		0430427119D70D2200659074 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0430427019D70D2200659074 /* Images.xcassets */; };
 		0430427419D70D2200659074 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0430427219D70D2200659074 /* LaunchScreen.xib */; };
 		0430428019D70D2200659074 /* TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430427F19D70D2200659074 /* TimerTests.swift */; };
+		0430428A19D70DA400659074 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430428919D70DA400659074 /* SecondViewController.swift */; };
+		0430428C19D70DCE00659074 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430428B19D70DCE00659074 /* ModelViewController.swift */; };
+		0430428E19D70DE400659074 /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430428D19D70DE400659074 /* MainPageController.swift */; };
+		0430429019D7120700659074 /* RecordTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430428F19D7120700659074 /* RecordTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		0430427919D70D2200659074 /* TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0430427E19D70D2200659074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0430427F19D70D2200659074 /* TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTests.swift; sourceTree = "<group>"; };
+		0430428919D70DA400659074 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0430428B19D70DCE00659074 /* ModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		0430428D19D70DE400659074 /* MainPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
+		0430428F19D7120700659074 /* RecordTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				0430426919D70D2200659074 /* AppDelegate.swift */,
 				0430426B19D70D2200659074 /* ViewController.swift */,
 				0430426D19D70D2200659074 /* Main.storyboard */,
+				0430428F19D7120700659074 /* RecordTable.swift */,
+				0430428B19D70DCE00659074 /* ModelViewController.swift */,
+				0430428D19D70DE400659074 /* MainPageController.swift */,
+				0430428919D70DA400659074 /* SecondViewController.swift */,
 				0430427019D70D2200659074 /* Images.xcassets */,
 				0430427219D70D2200659074 /* LaunchScreen.xib */,
 				0430426719D70D2200659074 /* Supporting Files */,
@@ -212,6 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0430428E19D70DE400659074 /* MainPageController.swift in Sources */,
+				0430429019D7120700659074 /* RecordTable.swift in Sources */,
+				0430428C19D70DCE00659074 /* ModelViewController.swift in Sources */,
+				0430428A19D70DA400659074 /* SecondViewController.swift in Sources */,
 				0430426C19D70D2200659074 /* ViewController.swift in Sources */,
 				0430426A19D70D2200659074 /* AppDelegate.swift in Sources */,
 			);
@@ -341,6 +357,7 @@
 				INFOPLIST_FILE = Timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +368,7 @@
 				INFOPLIST_FILE = Timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
