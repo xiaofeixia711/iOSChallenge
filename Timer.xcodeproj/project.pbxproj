@@ -17,6 +17,11 @@
 		0430428C19D70DCE00659074 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430428B19D70DCE00659074 /* ModelViewController.swift */; };
 		0430428E19D70DE400659074 /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430428D19D70DE400659074 /* MainPageController.swift */; };
 		0430429019D7120700659074 /* RecordTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430428F19D7120700659074 /* RecordTable.swift */; };
+		0A1E1FB719D752D5009A031A /* TimedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E1FB619D752D5009A031A /* TimedItem.swift */; };
+		0A1E1FB919D7532E009A031A /* TimedRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E1FB819D7532E009A031A /* TimedRecord.swift */; };
+		0A1E1FBB19D75592009A031A /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E1FBA19D75592009A031A /* ItemManager.swift */; };
+		0A1E1FBD19D75B6C009A031A /* ItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E1FBC19D75B6C009A031A /* ItemViewCell.swift */; };
+		0AF39CB619D7A83100B9E88E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF39CB519D7A83100B9E88E /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		0430428B19D70DCE00659074 /* ModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
 		0430428D19D70DE400659074 /* MainPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
 		0430428F19D7120700659074 /* RecordTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTable.swift; sourceTree = "<group>"; };
+		0A1E1FB619D752D5009A031A /* TimedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimedItem.swift; sourceTree = "<group>"; };
+		0A1E1FB819D7532E009A031A /* TimedRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimedRecord.swift; sourceTree = "<group>"; };
+		0A1E1FBA19D75592009A031A /* ItemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
+		0A1E1FBC19D75B6C009A031A /* ItemViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewCell.swift; sourceTree = "<group>"; };
+		0AF39CB519D7A83100B9E88E /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +98,15 @@
 				0430426919D70D2200659074 /* AppDelegate.swift */,
 				0430426B19D70D2200659074 /* ViewController.swift */,
 				0430426D19D70D2200659074 /* Main.storyboard */,
+				0AF39CB519D7A83100B9E88E /* HistoryViewController.swift */,
+				0A1E1FBC19D75B6C009A031A /* ItemViewCell.swift */,
 				0430428F19D7120700659074 /* RecordTable.swift */,
 				0430428B19D70DCE00659074 /* ModelViewController.swift */,
 				0430428D19D70DE400659074 /* MainPageController.swift */,
 				0430428919D70DA400659074 /* SecondViewController.swift */,
+				0A1E1FBA19D75592009A031A /* ItemManager.swift */,
+				0A1E1FB619D752D5009A031A /* TimedItem.swift */,
+				0A1E1FB819D7532E009A031A /* TimedRecord.swift */,
 				0430427019D70D2200659074 /* Images.xcassets */,
 				0430427219D70D2200659074 /* LaunchScreen.xib */,
 				0430426719D70D2200659074 /* Supporting Files */,
@@ -225,10 +240,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0430428E19D70DE400659074 /* MainPageController.swift in Sources */,
+				0A1E1FBB19D75592009A031A /* ItemManager.swift in Sources */,
 				0430429019D7120700659074 /* RecordTable.swift in Sources */,
 				0430428C19D70DCE00659074 /* ModelViewController.swift in Sources */,
+				0A1E1FB719D752D5009A031A /* TimedItem.swift in Sources */,
+				0AF39CB619D7A83100B9E88E /* HistoryViewController.swift in Sources */,
+				0A1E1FBD19D75B6C009A031A /* ItemViewCell.swift in Sources */,
 				0430428A19D70DA400659074 /* SecondViewController.swift in Sources */,
 				0430426C19D70D2200659074 /* ViewController.swift in Sources */,
+				0A1E1FB919D7532E009A031A /* TimedRecord.swift in Sources */,
 				0430426A19D70D2200659074 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +445,7 @@
 				0430428519D70D2200659074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0430428619D70D2200659074 /* Build configuration list for PBXNativeTarget "TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +454,7 @@
 				0430428819D70D2200659074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
